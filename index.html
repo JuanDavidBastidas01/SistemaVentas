@@ -1,0 +1,24 @@
+<!-- actualizacion -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Login | Fruver</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<section id="container">
+		<form action="" method="post">
+			<h3>Iniciar sesión</h3>
+			<img src="img/Fruver.jpg" alt="Login" height="240" width="240">
+
+			<input type="text" name="usuario" placeholder="Usuario">
+			<input type="password" name="clave" placeholder="Contraseña">
+			<div class="alert"><?php echo isset($alert) ? $alert : ''; ?></div>
+			<input type="submit" name="Ingresar">
+		</form>
+	</section>
+</body>
+</html>
